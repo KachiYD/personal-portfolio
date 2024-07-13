@@ -48,18 +48,16 @@ const About = () => {
 
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview</h2>
+        <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Highly motivated Software Engineer with 3+ years of experience in developing
-        user-friendly front-end and robust back-end solutions. Proficient in Python and
-        JavaScript frameworks like React, with a keen ability to craft clean, efficient,
-        and well-documented code. Committed to excellence and enthusiastic about leveraging
-        technology to drive innovation and connectivity
+        I'm a highly motivated Full Stack Developer with a Bachelor's degree in Computer Science and 3+ years of experience in software
+        engineering, and web development. I am proficient in Python and JavaScript frameworks like React, with a keen ability to craft clean, efficient,
+        and well-documented code. When I'm not working, I'm on road trips, at the gym, or picking up a new sport
 
       </motion.p>
 

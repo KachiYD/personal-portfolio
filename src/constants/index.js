@@ -25,6 +25,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    nextlevelfood,
   } from "../assets";
   
   export const navLinks = [
@@ -44,7 +45,7 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Full Stack Engineer",
       icon: web,
     },
     {
@@ -56,7 +57,7 @@ import {
       icon: backend,
     },
     {
-      title: "Gym Enthusiast",
+      title: "Health & Wellness Enthusiast",
       icon: creator,
     },
   ];
@@ -210,12 +211,12 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "NextLevel Food",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to browse and share fooc recipes, as well as join a community of food lovers.",
       tags: [
         {
-          name: "react",
+          name: "nextjs",
           color: "blue-text-gradient",
         },
         {
@@ -223,12 +224,12 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "css",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: nextlevelfood,
+      source_code_link: "https://github.com/KachiYD/foodies-app",
     },
     {
       name: "Job IT",
