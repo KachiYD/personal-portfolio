@@ -38,6 +38,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import nextlevelfood from "./nextlevelfood.png"
 import weathernetwork from "./weathernetwork.png"
+import personalportfolio from "./personalportfolio.png"
 
 export {
   logo,
@@ -76,4 +77,5 @@ export {
   tripguide,
   nextlevelfood,
   weathernetwork,
+  personalportfolio,
 };

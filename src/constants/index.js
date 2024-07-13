@@ -27,6 +27,7 @@ import {
     threejs,
     nextlevelfood,
     weathernetwork,
+    personalportfolio,
   } from "../assets";
   
   export const navLinks = [
@@ -254,25 +255,25 @@ import {
       source_code_link: "https://github.com/KachiYD/weather-website",
     },
     {
-      name: "Trip Guide",
+      name: "Personal Portfolio",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "My personal portfolio created using Next.js and tailwindcss. Showcases my skills and experiences. Cool eh?",
       tags: [
         {
           name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "tailwindcss",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "threejs",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: personalportfolio,
+      source_code_link: "https://github.com/KachiYD/personal-portfolio",
     },
   ];
   
