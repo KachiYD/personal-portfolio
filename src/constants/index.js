@@ -16,7 +16,7 @@ import {
     figma,
     docker,
     meta,
-    starbucks,
+    absolute,
     tesla,
     shopify,
     carrent,
@@ -116,16 +116,15 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Associate Software Engineer",
+      company_name: "Absolute Software",
+      icon: absolute,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "July 2022 - April 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed innovative solutions using multi-threading with Python, reducing data retrieval time by 50%.",
+        "Performed data analysis using SQL and MongoDB, generating detailed reports from 1000+ company records.",
+        "Collaborated on debugging and maintaining backend Java code with Product Development team, improving client satisfaction.",
       ],
     },
     {
