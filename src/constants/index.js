@@ -26,6 +26,7 @@ import {
     tripguide,
     threejs,
     nextlevelfood,
+    weathernetwork,
   } from "../assets";
   
   export const navLinks = [
@@ -232,25 +233,25 @@ import {
       source_code_link: "https://github.com/KachiYD/foodies-app",
     },
     {
-      name: "Job IT",
+      name: "Weather Application",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables users to search the current weather in any city in the world, as well as displaying the city's location on a map and their respective upcoming five day forecasts.",
       tags: [
         {
-          name: "react",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "css",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "javascript",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: weathernetwork,
+      source_code_link: "https://github.com/KachiYD/weather-website",
     },
     {
       name: "Trip Guide",
