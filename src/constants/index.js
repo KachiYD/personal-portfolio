@@ -215,7 +215,7 @@ import {
     {
       name: "NextLevel Food",
       description:
-        "Web-based platform that allows users to browse and share fooc recipes, as well as join a community of food lovers.",
+        "Web-based platform that allows users to browse and share food recipes, as well as join a community of food lovers.",
       tags: [
         {
           name: "nextjs",

@@ -56,7 +56,7 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         I'm a highly motivated Full Stack Developer with a Bachelor's degree in Computer Science and 3+ years of experience in software
-        engineering, and web development. I am proficient in Python and JavaScript frameworks like React, with a keen ability to craft clean, efficient,
+        engineering, and full stack development. I am proficient in Python and JavaScript frameworks like React, with a keen ability to craft clean, efficient,
         and well-documented code. When I'm not working, I'm on road trips, at the gym, or picking up a new sport
 
       </motion.p>
