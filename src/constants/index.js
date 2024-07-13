@@ -15,7 +15,8 @@ import {
     git,
     figma,
     docker,
-    meta,
+    python,
+    java,
     absolute,
     ashtead,
     dalhousie,
@@ -82,8 +83,8 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Python",
+      icon: python,
     },
     {
       name: "Tailwind CSS",
@@ -110,8 +111,8 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "Java",
+      icon: java,
     },
   ];
   

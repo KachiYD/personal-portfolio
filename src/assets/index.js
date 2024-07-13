@@ -20,6 +20,10 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png";
+import java from "./tech/java.png";
+import sql from "./tech/sql.png";
+import postman from "./tech/postman.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -55,6 +59,10 @@ export {
   tailwind,
   typescript,
   threejs,
+  python,
+  java,
+  sql,
+  postman,
   meta,
   shopify,
   absolute,
