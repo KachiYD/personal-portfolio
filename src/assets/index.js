@@ -23,7 +23,10 @@ import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
-import absolute from "./company/absolute.png"
+import absolute from "./company/absolute.png";
+import ashtead from "./company/ashtead.png";
+import dalhousie from "./company/dalhousie.png";
+import quicstu from "./company/quicstu.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
@@ -55,7 +58,9 @@ export {
   meta,
   shopify,
   absolute,
-  tesla,
+  ashtead,
+  dalhousie,
+  quicstu,
   carrent,
   jobit,
   tripguide,
