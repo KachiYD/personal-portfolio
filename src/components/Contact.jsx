@@ -31,33 +31,40 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    emailjs.send(
-      serviceID, 
-      templateID,
-      {
-        from_name: form.name,
-        to_name: 'Kachi',
-        from_email: form.email,
-        to_email: myEmail,
-        message: form.message,
-      },
-      publicKey
-    )
-    .then(() => {
+    if (form.name === "" || form.email === "" || form.message === "") {
+      alert('Please fill in all Contact fields. I want to hear from you!');
       setLoading(false);
-      alert('Thank you. I will get back to you as soon as possible.');
+    }
 
-      setForm({
-        name: '',
-        email: '',
-        message: '',
+    else {
+      emailjs.send(
+        serviceID, 
+        templateID,
+        {
+          from_name: form.name,
+          to_name: 'Kachi',
+          from_email: form.email,
+          to_email: myEmail,
+          message: form.message,
+        },
+        publicKey
+      )
+      .then(() => {
+        setLoading(false);
+        alert('Thank you. I will get back to you as soon as possible.');
+
+        setForm({
+          name: '',
+          email: '',
+          message: '',
+        })
+      }, (error) => {
+        setLoading(false)
+        console.log(error);
+
+        alert('Something went wrong.')
       })
-    }, (error) => {
-      setLoading(false)
-      console.log(error);
-
-      alert('Something went wrong.')
-    })
+    }
   }
 
   return (
